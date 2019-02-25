@@ -66,9 +66,9 @@ function initContentScript() {
 
 function formStr(strIn) {
 	var str = strIn;
-	var index = str.indexOf('↑');
+	var index = str.indexOf('&uarr');
 	if (index == (-1)) {
-		index = str.indexOf('↓');
+		index = str.indexOf('&darr');
 	}
 	if (index == (-1)) {
 		index = str.indexOf('(');
