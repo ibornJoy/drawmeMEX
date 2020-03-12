@@ -13,7 +13,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.okooo.com/*"
+                "https://www.okooo.com/*","http://www.okooo.com/*"
             ],
             "all_frames": true,
             "js": [
@@ -32,7 +32,7 @@
     "name": "DrawMe",
     "permissions": [
         "tabs",
-        "https://www.okooo.com/*"
+        "https://www.okooo.com/*","http://www.okooo.com/*"
     ],
     "version": "1.1",
     "-ms-preload": {
